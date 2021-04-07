@@ -17,11 +17,14 @@ https://github.com/sharetribe/flex-template-web/
 
 ## Upcoming version 2020-XX-XX
 
-- [fix] currency for Poland (PLN) [#140](https://github.com/sharetribe/ftw-hourly/pull/140)
+- [fix] Handle changing the start time in BookingTimeForm so that it doesn't cause error for
+  fetching the lineItems. [#143](https://github.com/sharetribe/ftw-hourly/pull/141)
+- [fix] currency for Poland (PLN) [#143](https://github.com/sharetribe/ftw-hourly/pull/140)
 
 ## [v10.1.0] 2021-03-11
 
 ### Updates from upstream (FTW-daily v8.1.0)
+
 - [change] Specify required Node.js versions in package.json and update the node version used in
   CircleCI. Currently, the required Node.js version comes from
   [jose](https://github.com/panva/jose#runtime-support-matrix) package which is used with social
